@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.background-container{
+    width: 100%;
+    background-image: url("../src/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}

@@ -28,7 +28,7 @@ export default function Form(){
     };
     return(
         <>
-        <div className="bg-gradient-to-r from-blue-700 via-blue-900 to-blue-300 ">
+        <div className="background-container ">
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-3">
                 <div className="p-10 ">
                     <div className="ml-5">

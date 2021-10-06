@@ -1,25 +1,26 @@
 import Home from './views/Home';
+import LogIn from './views/Login';
 import Notfound from './components/404';
-import {
-  BrowserRouter as HashRouter,
-  Route,
-  Switch
-} from "react-router-dom";
+import Admin from './views/Admin';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-    <HashRouter>
+    <Router>
       <Switch>
         <Route path="/" exact>
             <Home />
         </Route>
+        <Route path="/admin" exact>
+            <LogIn />
+        </Route>
+        <Route exact path="/info" component={()=> <Admin authorized={true} />} />
         <Route path="*">
-          <Notfound />
+            <Notfound />
         </Route>
       </Switch>
-    </HashRouter>
-    
+    </Router> 
     </>
   );
 }
