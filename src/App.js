@@ -2,7 +2,7 @@ import Home from './views/Home';
 import LogIn from './views/Login';
 import Notfound from './components/404';
 import Admin from './views/Admin';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (

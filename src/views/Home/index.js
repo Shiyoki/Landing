@@ -44,9 +44,11 @@ export default function Home(){
     }
 
     return(
-        <>
-        <Form />
-        <Information />
+        <>  
+        <div className="background-container">
+            <Form />
+            <Information />
+        </div>
         <Texto />
         <Footer />
         </>

@@ -28,20 +28,20 @@ export default function Form(){
     };
     return(
         <>
-        <div className="background-container ">
+        <div className="px-20">
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-3">
                 <div className="p-10 ">
                     <div className="ml-5">
                         <img src={Euroautos} className="w-80"></img>
                     </div>
                      <div>
-                         <h1 className="text-white font-bold p-4 text-base lg:text-4xl">COMPRAMOS TU COCHE CON CARGAS</h1>
+                         <h1 className="text-white font-bold p-4 text-3xl">COMPRAMOS TU COCHE CON CARGAS</h1>
                      </div>
-                     <div className="bg-indigo-100">
-                         <h1 className="text-blue-900 text-center font-bold p-4 text-base lg:text-4xl">IMPAGOS DE RESERVA DE DOMINIO, EMBARGO, PRECINTO, LEASING, FINANCIADO</h1>
+                     <div className="bg-indigo-100 opacity-80">
+                         <h1 className="color text-center font-bold p-4 text-4xl">IMPAGOS DE RESERVA DE DOMINIO, EMBARGO, PRECINTO, LEASING, FINANCIADO</h1>
                      </div>
-                     <div className="bg-white mt-4 p-2 w-36">
-                        <a className="text-blue-900 font-bold text-center p-3">607362316</a>
+                     <div className="bg-white mt-8 p-2 inline-block">
+                        <a className="color font-bold text-center p-3 text-3xl">607362316</a>
                      </div>
                 </div>
                 <div>
