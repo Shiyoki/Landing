@@ -10,7 +10,7 @@ body{
 }
 
 h1{
-    font-size: 1.938rem;
+    font-size: 1.563rem;
 }
 
 p{
@@ -33,3 +33,39 @@ p{
 .bg-teal-1000{
     background-color: #1871a2;
 }
+
+.full{
+    height: 100vh;
+}
+/*
+.bs-container{
+    position: fixed;
+    bottom: 50;
+    right: 50;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.bs-icon-holder{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #25d366;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.bs-icon-holder:hover{
+    opacity: 0.8;
+}
+
+.bs-icon-holder i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-style: 25px;
+    color: #ffff;
+}
+
+*/

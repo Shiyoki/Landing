@@ -2,6 +2,7 @@ import Form from "../../components/Form";
 import Information from "../../components/Info";
 import Texto from "../../components/Texto";
 import Footer from "../../components/Footer";
+import Whats from "../../components/Whatsapp";
 import axios from 'axios'
 import {useState,useEffect} from 'react'
 
@@ -44,13 +45,14 @@ export default function Home(){
     }
 
     return(
-        <>  
-        <div className="background-container">
-            <Form />
-            <Information />
+        <div className="relative">  
+            <div className="background-container">
+                <Form />
+                <Information />
+            </div>
+            <Texto />
+            <Whats />
+            <Footer />
         </div>
-        <Texto />
-        <Footer />
-        </>
     );
 }
